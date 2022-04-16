@@ -1,0 +1,21 @@
+$body-font-family:'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.icon-search{
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: url("data:image/svg+xml,%3Csvg width='22' height='21' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.1932 20.5C19.9798 20.5 19.7665 20.4183 19.604 20.2558L15.6082 16.26C15.2832 15.9342 15.2832 15.4067 15.6082 15.0817C15.934 14.7558 16.4615 14.7558 16.7874 15.0817L20.7823 19.0775C21.1082 19.4033 21.1082 19.93 20.7823 20.2558C20.6198 20.4183 20.4065 20.5 20.1932 20.5Z' fill='%23252B3A' stroke='white' stroke-width='0.2'%3E%3C/path%3E%3Cpath d='M10.1933 18.8331C5.13915 18.8331 1.02667 14.7206 1.02667 9.6665C1.02667 4.61236 5.13915 0.499878 10.1933 0.499878C15.2474 0.499878 19.3599 4.61236 19.3599 9.6665C19.3599 14.7206 15.2474 18.8331 10.1933 18.8331ZM10.1933 2.16654C6.05831 2.16654 2.69333 5.53069 2.69333 9.6665C2.69333 13.8023 6.05831 17.1665 10.1933 17.1665C14.3283 17.1665 17.6933 13.8023 17.6933 9.6665C17.6933 5.53069 14.3283 2.16654 10.1933 2.16654Z' fill='%23252B3A' stroke='white' stroke-width='0.4'%3E%3C/path%3E%3C/svg%3E");
+        width: 22px;
+        height: 21px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}

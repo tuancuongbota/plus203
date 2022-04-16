@@ -1,0 +1,26 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: $body-font-family;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #575d6c;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
