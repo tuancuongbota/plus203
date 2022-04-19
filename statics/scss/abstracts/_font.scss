@@ -19,3 +19,60 @@ $body-font-family:'Inter', sans-serif;
         background-size: 100%;
     }
 }
+.icon-cloud{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: url("../imgs/cloud.svg");
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+.icon-clouds{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: url("../imgs/clouds.svg");
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+.icon-ai{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: url("../imgs/ai.svg");
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
