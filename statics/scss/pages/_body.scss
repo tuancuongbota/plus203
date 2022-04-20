@@ -12,7 +12,12 @@ body {
   background-color: #fff;
   transition: opacity .5s ease-in-out;
 }
-
+.bota_body_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 img {
   max-width: 100%;
 }
@@ -24,4 +29,48 @@ ul li {
 ul {
   padding: 0;
   margin: 0;
+}
+.bota_block_registration {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .bota_block_registration_cont {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .bota_block_registration_description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    a {
+      background: #FF7E3D;
+      border-radius: 3px;
+      color: #fff;
+      padding: 16px 37px;
+      line-height: 20px;
+      border: 1px solid #FF7E3D;
+      transition: all .35s;
+
+      &:hover {
+        background: #fff;
+        color: #FF7E3D;
+      }
+    }
+  }
 }

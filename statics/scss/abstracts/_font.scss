@@ -76,3 +76,54 @@ $body-font-family:'Inter', sans-serif;
         background-size: 100%;
     }
 }
+.icon-facebook{
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    &::before{
+      content: "";
+      background-image: url(../imgs/facebook.svg);
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+  .icon-linkedin{
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    &::before{
+      content: "";
+      background-image: url(../imgs/in.svg);
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+  .icon-youtube{
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    &::before{
+      content: "";
+      background-image: url(../imgs/youtube.svg);
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
