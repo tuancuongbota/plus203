@@ -15,9 +15,10 @@
     .bota_feedback_body {
         background: #fff;
         box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
-        padding: 0 204px 104px;
+        padding: 0 104px 85px;
         position: relative;
         margin-top: 82px;
+        z-index: 1;
       }
       
       .bota_feedback_title {

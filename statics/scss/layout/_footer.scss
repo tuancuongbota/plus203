@@ -29,7 +29,7 @@
 	&_content {
 		font-style: normal;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 14px;
 		line-height: 2;
 		color: #4D4D4D;
 
@@ -68,18 +68,18 @@
 		label {
 			font-style: normal;
 			font-weight: normal;
-			font-size: 16px;
+			font-size: 13px;
 			line-height: 30px;
 			margin: 0;
 			color: #4D4D4D;
-			margin-right: 20px;
+			margin-right: 7px;
 		}
 
 		&_ul ul {
 			display: flex;
 
 			li+li {
-				margin-left: 25px;
+				margin-left: 15px;
 			}
 		}
 	}
@@ -116,7 +116,7 @@
 		a {
 			display: block;
 			color: #4D4D4D;
-			font-size: 15px;
+			font-size: 14px;
 			font-weight: 400;
 
 			@media only screen and (max-width: 767px) {
